@@ -1,0 +1,23 @@
+{
+	"schemaVersion": 1,
+	"id": "shardpickaxe",
+	"version": "${version}",
+	"name": "Shard Pickaxe",
+	"description": "Adds /shard-pickaxe give <count>: a netherite pickaxe that breaks 3x3 blocks, with Silk Touch, Efficiency V, Unbreaking III, Mending and a 24h self-destruct timer.",
+	"authors": [
+		"You"
+	],
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dev.shardpickaxe.ShardPickaxeMod"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.18.0",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
